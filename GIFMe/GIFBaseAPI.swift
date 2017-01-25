@@ -15,10 +15,13 @@ class GIFBaseAPI {
     static let sharedGIFBaseAPI = GIFBaseAPI()
     
     // MARK: Public Methods
-    func retrieveGIFs(withTag tag: String, completionHandler: @escaping ([GIF]?, Int, Int, Error?) -> Void) {
-        let retrieveGIFsURL = Constants.gifBaseBaseURL + Constants.gifBaseAPITagEndpoint + tag + Constants.httpParameterStartString + Constants.gifBaseFormatJSONParameterAndValue
+    func retrieveGIFs(withTag tag: String, forPage page: Int = 0, completionHandler: @escaping ([GIF]?, Int, Int, Error?) -> Void) {
+        // Assertions
+        assert(!tag.isEmpty)
         
-        Alamofire.request(retrieveGIFsURL).validate().responseJSON {response in
+        let retrieveGIFsURL = Constants.gifBaseBaseURL + Constants.gifBaseAPITagEndpoint + tag + Constants.httpParameterStartString + Constants.gifBaseFormatJSONParameterAndValue + ((page > 1) ? Constants.httpParameterAppendString + Constants.gifBasePageParameter + String(page) : "")
+        
+        Alamofire.request(retrieveGIFsURL).validate().responseJSON { response in
             switch response.result {
                 case .success(let value):
                     let jsonSerializedValue = JSON(value)
@@ -31,9 +34,8 @@ class GIFBaseAPI {
         }
     }
     
-    
     // MARK: Serializer methods
-    fileprivate func serializeGIFs(gifs: JSON, completionHandler: @escaping ([GIF]?) -> Void) {
+    private func serializeGIFs(gifs: JSON, completionHandler: @escaping ([GIF]?) -> Void) {
         DispatchQueue.global(qos: .background).async {
             var serializedGIFs = [GIF]()
             

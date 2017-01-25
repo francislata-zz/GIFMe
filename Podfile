@@ -5,5 +5,6 @@ target 'GIFMe' do
 
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'PHImageKit'
   
 end

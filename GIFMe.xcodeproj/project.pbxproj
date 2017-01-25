@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150E9EAC1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E9EAA1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift */; };
+		150E9EAD1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */; };
+		157662141E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157662121E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift */; };
+		157662151E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157662131E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib */; };
+		15A2B2C31E332639005D13DF /* GIFFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A2B2C21E332639005D13DF /* GIFFeedViewController.swift */; };
 		15B1BB601E2F0E0200F9C052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1BB5F1E2F0E0200F9C052 /* AppDelegate.swift */; };
 		15B1BB651E2F0E0200F9C052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B1BB631E2F0E0200F9C052 /* Main.storyboard */; };
 		15B1BB671E2F0E0200F9C052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B1BB661E2F0E0200F9C052 /* Assets.xcassets */; };
@@ -19,6 +24,11 @@
 
 /* Begin PBXFileReference section */
 		072C34D2AA4168607273CD60 /* Pods_GIFMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150E9EAA1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFFeedPreviewTableViewCell.swift; sourceTree = "<group>"; };
+		150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFFeedPreviewTableViewCell.xib; sourceTree = "<group>"; };
+		157662121E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFFeedLoadingTableViewCell.swift; sourceTree = "<group>"; };
+		157662131E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFFeedLoadingTableViewCell.xib; sourceTree = "<group>"; };
+		15A2B2C21E332639005D13DF /* GIFFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFFeedViewController.swift; sourceTree = "<group>"; };
 		15B1BB5C1E2F0E0200F9C052 /* GIFMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B1BB5F1E2F0E0200F9C052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B1BB641E2F0E0200F9C052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +54,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150E9EA91E3576FA00B19C3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				150E9EAA1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift */,
+				150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */,
+				157662121E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift */,
+				157662131E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		15A2B2BF1E3325DB005D13DF /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15A2B2C21E332639005D13DF /* GIFFeedViewController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
 		15B1BB531E2F0E0200F9C052 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +100,8 @@
 				15B1BB711E2F0E2A00F9C052 /* App delegate */,
 				15FC8FF71E2F127800B23994 /* Model */,
 				15B1BB721E2F0E3800F9C052 /* Storyboards */,
+				15A2B2BF1E3325DB005D13DF /* View controllers */,
+				150E9EA91E3576FA00B19C3A /* Views */,
 				15B1BB741E2F0E5000F9C052 /* Others */,
 			);
 			path = GIFMe;
@@ -214,7 +245,9 @@
 			files = (
 				15B1BB6A1E2F0E0200F9C052 /* LaunchScreen.storyboard in Resources */,
 				15B1BB671E2F0E0200F9C052 /* Assets.xcassets in Resources */,
+				157662151E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib in Resources */,
 				15B1BB651E2F0E0200F9C052 /* Main.storyboard in Resources */,
+				150E9EAD1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157662141E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift in Sources */,
 				15FC8FF91E2F128600B23994 /* GIF.swift in Sources */,
+				150E9EAC1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift in Sources */,
 				15B1BB601E2F0E0200F9C052 /* AppDelegate.swift in Sources */,
 				15FC8FFC1E2F138D00B23994 /* Constants.swift in Sources */,
 				15E6EC091E30F7ED00FB94B5 /* GIFBaseAPI.swift in Sources */,
+				15A2B2C31E332639005D13DF /* GIFFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

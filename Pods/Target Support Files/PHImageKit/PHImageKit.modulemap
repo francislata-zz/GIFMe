@@ -1,0 +1,6 @@
+framework module PHImageKit {
+  umbrella header "PHImageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GIFFeedPreviewTableViewCell" rowHeight="150" id="KGk-i7-Jjw" customClass="GIFFeedPreviewTableViewCell" customModule="GIFMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SJu-FQ-7ER" customClass="PHImageView" customModule="PHImageKit">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="SJu-FQ-7ER" secondAttribute="bottom" constant="5" id="0KI-zl-Q4k"/>
+                    <constraint firstAttribute="trailing" secondItem="SJu-FQ-7ER" secondAttribute="trailing" id="GNM-k6-4LP"/>
+                    <constraint firstItem="SJu-FQ-7ER" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cyr-tx-LGv"/>
+                    <constraint firstItem="SJu-FQ-7ER" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ec2-aO-6Q2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="gifPreviewImageView" destination="SJu-FQ-7ER" id="hjI-gA-5yB"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
