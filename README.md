@@ -17,7 +17,7 @@ pod install
 in the project's directory.
 
 ## Open source frameworks used
-1) [Alamofire](https://github.com/Alamofire/Alamofire)
-2) [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
-3) [PHImageKit](https://github.com/producthunt/PHImageKit)
-4) [SwiftyStarRatingView](https://github.com/Jerrrr/SwiftyStarRatingView/)
+* [Alamofire](https://github.com/Alamofire/Alamofire)
+* [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
+* [PHImageKit](https://github.com/producthunt/PHImageKit)
+* [SwiftyStarRatingView](https://github.com/Jerrrr/SwiftyStarRatingView/)
