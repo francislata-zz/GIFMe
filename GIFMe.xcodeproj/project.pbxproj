@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		150E9EAC1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E9EAA1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift */; };
 		150E9EAD1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */; };
+		15342D4F1E3A3146006EB356 /* GIFDetailInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15342D4E1E3A3146006EB356 /* GIFDetailInformationTableViewCell.swift */; };
 		157662141E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157662121E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift */; };
 		157662151E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157662131E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib */; };
+		1578E91C1E3A39C2009A1F64 /* SwiftyStarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578E91B1E3A39C2009A1F64 /* SwiftyStarRatingView.swift */; };
 		15A2B2C31E332639005D13DF /* GIFFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A2B2C21E332639005D13DF /* GIFFeedViewController.swift */; };
 		15B1BB601E2F0E0200F9C052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1BB5F1E2F0E0200F9C052 /* AppDelegate.swift */; };
 		15B1BB651E2F0E0200F9C052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B1BB631E2F0E0200F9C052 /* Main.storyboard */; };
 		15B1BB671E2F0E0200F9C052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B1BB661E2F0E0200F9C052 /* Assets.xcassets */; };
 		15B1BB6A1E2F0E0200F9C052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B1BB681E2F0E0200F9C052 /* LaunchScreen.storyboard */; };
+		15CADAA61E3A4A3E0091FBC6 /* GIFDetailRatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CADAA51E3A4A3E0091FBC6 /* GIFDetailRatingTableViewCell.swift */; };
+		15E2CDCB1E39C37E00BB3F47 /* GIFDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2CDCA1E39C37E00BB3F47 /* GIFDetailViewController.swift */; };
 		15E6EC091E30F7ED00FB94B5 /* GIFBaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E6EC081E30F7ED00FB94B5 /* GIFBaseAPI.swift */; };
 		15FC8FF91E2F128600B23994 /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8FF81E2F128600B23994 /* GIF.swift */; };
 		15FC8FFC1E2F138D00B23994 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8FFB1E2F138D00B23994 /* Constants.swift */; };
@@ -26,8 +30,10 @@
 		072C34D2AA4168607273CD60 /* Pods_GIFMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150E9EAA1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFFeedPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFFeedPreviewTableViewCell.xib; sourceTree = "<group>"; };
+		15342D4E1E3A3146006EB356 /* GIFDetailInformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFDetailInformationTableViewCell.swift; sourceTree = "<group>"; };
 		157662121E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFFeedLoadingTableViewCell.swift; sourceTree = "<group>"; };
 		157662131E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFFeedLoadingTableViewCell.xib; sourceTree = "<group>"; };
+		1578E91B1E3A39C2009A1F64 /* SwiftyStarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyStarRatingView.swift; sourceTree = "<group>"; };
 		15A2B2C21E332639005D13DF /* GIFFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFFeedViewController.swift; sourceTree = "<group>"; };
 		15B1BB5C1E2F0E0200F9C052 /* GIFMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B1BB5F1E2F0E0200F9C052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +41,8 @@
 		15B1BB661E2F0E0200F9C052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B1BB691E2F0E0200F9C052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B1BB6B1E2F0E0200F9C052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CADAA51E3A4A3E0091FBC6 /* GIFDetailRatingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFDetailRatingTableViewCell.swift; sourceTree = "<group>"; };
+		15E2CDCA1E39C37E00BB3F47 /* GIFDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFDetailViewController.swift; sourceTree = "<group>"; };
 		15E6EC081E30F7ED00FB94B5 /* GIFBaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFBaseAPI.swift; sourceTree = "<group>"; };
 		15FC8FF81E2F128600B23994 /* GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
 		15FC8FFB1E2F138D00B23994 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -58,17 +66,28 @@
 			isa = PBXGroup;
 			children = (
 				150E9EAA1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift */,
-				150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */,
 				157662121E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift */,
+				15342D4E1E3A3146006EB356 /* GIFDetailInformationTableViewCell.swift */,
+				15CADAA51E3A4A3E0091FBC6 /* GIFDetailRatingTableViewCell.swift */,
+				150E9EAB1E35771200B19C3A /* GIFFeedPreviewTableViewCell.xib */,
 				157662131E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		1578E91A1E3A39A7009A1F64 /* Open source */ = {
+			isa = PBXGroup;
+			children = (
+				1578E91B1E3A39C2009A1F64 /* SwiftyStarRatingView.swift */,
+			);
+			name = "Open source";
 			sourceTree = "<group>";
 		};
 		15A2B2BF1E3325DB005D13DF /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
 				15A2B2C21E332639005D13DF /* GIFFeedViewController.swift */,
+				15E2CDCA1E39C37E00BB3F47 /* GIFDetailViewController.swift */,
 			);
 			name = "View controllers";
 			sourceTree = "<group>";
@@ -135,6 +154,7 @@
 		15B1BB741E2F0E5000F9C052 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				1578E91A1E3A39A7009A1F64 /* Open source */,
 				15B1BB6B1E2F0E0200F9C052 /* Info.plist */,
 			);
 			name = Others;
@@ -306,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E2CDCB1E39C37E00BB3F47 /* GIFDetailViewController.swift in Sources */,
 				157662141E36DEE300C4DBC9 /* GIFFeedLoadingTableViewCell.swift in Sources */,
 				15FC8FF91E2F128600B23994 /* GIF.swift in Sources */,
 				150E9EAC1E35771200B19C3A /* GIFFeedPreviewTableViewCell.swift in Sources */,
+				1578E91C1E3A39C2009A1F64 /* SwiftyStarRatingView.swift in Sources */,
+				15342D4F1E3A3146006EB356 /* GIFDetailInformationTableViewCell.swift in Sources */,
+				15CADAA61E3A4A3E0091FBC6 /* GIFDetailRatingTableViewCell.swift in Sources */,
 				15B1BB601E2F0E0200F9C052 /* AppDelegate.swift in Sources */,
 				15FC8FFC1E2F138D00B23994 /* Constants.swift in Sources */,
 				15E6EC091E30F7ED00FB94B5 /* GIFBaseAPI.swift in Sources */,
@@ -433,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D272AFD312F0E3818C7FA6C /* Pods-GIFMe.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GIFMe/Info.plist;
@@ -448,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D07954185F7E2BF2C24C6CB0 /* Pods-GIFMe.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GIFMe/Info.plist;

@@ -14,6 +14,7 @@ class GIF {
     let id: String
     let url: URL?
     let username: String
+    var rating: Float = 0.0
     
     // MARK: Methods
     init(date: Double, id: String, url: String, username: String) {
